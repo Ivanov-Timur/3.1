@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #f9f9f9;
+}
+.container{
+	width: 1060px;
+	margin: 0 auto;
+	background-color: #ffffff;
+	border: 1px solid #dbdbdb;
+}
+.logo{
+	padding: 50px 0px 40px 45px;
+}
+ul{
+	margin: 0 45px;
+	list-style: none;
+	font-size:0;
+}
+li{
+	font-size:14px;
+}
+.navigate li{
+	margin: 0;
+	padding: 14px 24px;
+	margin-bottom: 40px;
+	display: inline-block;
+	background-color: #525151;
+	font-size: 14.667px;
+	font-family: 'Open Sans', sans-serif;
+	color: rgb(255, 255, 255);
+	text-align: justifyAll;
+	text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.5);
+}
+.navigate a{
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+.navigate .active{
+	background-color: #424242;
+	border-right: 1px solid #838383;
+	border-left: 1px solid #838383;
+}
+.navigate li:first-child{
+	padding-right: 60px;
+}
+.navigate li:nth-child(3){
+	padding-left: 62px;
+	padding-right: 62px;
+}
+.navigate li:nth-child(4){
+	padding-right: 462px;
+}
+
+.body nav{
+	float: left;
+}
+.body li{
+	width: 240px;
+	border:1px solid #c8c8c8;
+	border-bottom: none;
+	box-sizing: border-box;
+	padding: 16px 24px;
+}
+.body li:last-child{
+	border:1px solid #c8c8c8;
+}
+.body a{
+	font-size: 13.333px;
+	font-family: 'Open Sans', sans-serif;
+	color: rgb(101, 99, 99);
+	text-decoration: none;
+}
+.body .active{
+	background-color: #f9f9f9;
+	padding-left: 35px;
+}
+.content{
+	width: 677px;
+	float: right;
+	margin-right: 45px;
+
+}
+.content img{
+	border:1px solid #c8c8c8;
+	padding: 45px 85px; 
+}
+.content p{
+	padding: 35px 45px 55px 25px;
+	font-size: 13.333px;
+	font-family: 'Times New Roman';
+	color: rgb(44, 44, 44);
+	line-height: 1.6;
+}
+
+footer{
+	clear: both;
+	width: 967px;	
+	margin: 0 auto;
+	margin-bottom: 60px;
+	padding: 26px 14px;
+	padding-bottom: 45px;
+	padding-top: 0;
+	box-sizing: border-box;
+	background-color: #e1e1e1;
+}
+footer ul{
+	float: left;
+}
+footer li{
+	display: inline-block;
+	margin-right: 93px;
+}
+footer a, .copy{
+	text-decoration: none;
+	font-size: 13.333px;
+	font-family: 'Open Sans', sans-serif;
+	color: rgb(44, 44, 44);
+}
+footer .active{
+	text-decoration: underline;
+}
+.copy{
+	float: right;
+}
+footer ul, footer .copy{
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
