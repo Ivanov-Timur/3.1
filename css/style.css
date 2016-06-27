@@ -19,23 +19,25 @@ body{
 	padding: 50px 0px 40px 45px;
 }
 ul{
-	margin: 0 45px;
+	margin: 0px 50px 0px 45px;
 	list-style: none;
 	font-size:0;
 }
 li{
 	font-size:14px;
 }
+.navigate ul{
+	background-color: #525151;
+	padding: 0;
+}
 .navigate li{
 	margin: 0;
 	padding: 14px 24px;
-	margin-bottom: 40px;
+	margin-right: 40px;
 	display: inline-block;
-	background-color: #525151;
 	font-size: 14.667px;
 	font-family: 'Open Sans', sans-serif;
 	color: rgb(255, 255, 255);
-	text-align: justifyAll;
 	text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.5);
 }
 .navigate a{
@@ -47,17 +49,9 @@ li{
 	border-right: 1px solid #838383;
 	border-left: 1px solid #838383;
 }
-.navigate li:first-child{
-	padding-right: 60px;
+.body{
+	margin-top: 40px;
 }
-.navigate li:nth-child(3){
-	padding-left: 62px;
-	padding-right: 62px;
-}
-.navigate li:nth-child(4){
-	padding-right: 462px;
-}
-
 .body nav{
 	float: left;
 }
@@ -107,6 +101,7 @@ footer{
 	padding: 26px 14px;
 	padding-bottom: 45px;
 	padding-top: 0;
+	padding-right: 35px;
 	box-sizing: border-box;
 	background-color: #e1e1e1;
 }
