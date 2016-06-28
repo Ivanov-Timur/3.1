@@ -13,7 +13,6 @@ body{
 	-webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
 	-moz-box-shadow:    0px 5px 5px 0px rgba(0, 0, 0, 0.3);
 	box-shadow:         0px 5px 5px 0px rgba(0, 0, 0, 0.3);
-
 }	
 .logo{
 	padding: 50px 0px 40px 45px;
@@ -32,8 +31,6 @@ li{
 }
 .navigate li{
 	margin: 0;
-	padding: 14px 24px;
-	margin-right: 40px;
 	display: inline-block;
 	font-size: 14.667px;
 	font-family: 'Open Sans', sans-serif;
@@ -41,13 +38,18 @@ li{
 	text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.5);
 }
 .navigate a{
+	padding: 15px 25px;
+	margin-right: 40px;
+	display: block;
 	color: rgb(255, 255, 255);
 	text-decoration: none;
 }
-.navigate .active{
+.navigate a:hover{
+	padding: 14px 24px;
 	background-color: #424242;
 	border-right: 1px solid #838383;
 	border-left: 1px solid #838383;
+
 }
 .body{
 	margin-top: 40px;
@@ -118,7 +120,7 @@ footer a, .copy{
 	font-family: 'Open Sans', sans-serif;
 	color: rgb(44, 44, 44);
 }
-footer .active{
+footer li:hover{
 	text-decoration: underline;
 }
 .copy{
